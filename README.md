@@ -1,2 +1,2 @@
 # Computer-Mark-documentation
-Documentation for Computer Mark generated using sphinx.
+Documentation for Computer Mark generated using Sphinx.
