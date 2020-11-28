@@ -1,0 +1,53 @@
+Example Programs
+================
+
+Below are a few examples which can be run on the simulation.
+
+
+Adding two numbers
+##################
+
+**ALLOCATE MEMORY:**
+
+* a:2
+* b:3
+
+**ASSEMBLY CODE:**
+
+* X D LDA a
+* X D ADD b
+* HLT
+
+Using stack operations and changing existing memory location
+############################################################
+
+**ALLOCATE MEMORY:**
+
+* a:2
+* b:3
+
+**ASSEMBLY CODE:**
+
+* X D LDA a
+* X PSH
+* Y POP
+* Y D STO b
+* HLT
+
+Using both axis for two calculations
+####################################
+
+**ALLOCATE MEMORY:**
+
+* a:2
+* b:3
+* c:5
+* d:10
+
+**ASSEMBLY CODE:**
+
+* X D LDA a
+* X D ADD b
+* Y D LDA c
+* Y D ADD d
+* HLT

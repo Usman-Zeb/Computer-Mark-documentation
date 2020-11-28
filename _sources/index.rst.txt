@@ -1,0 +1,25 @@
+.. image:: logo.jpeg
+   :width: 250px
+   :align: center
+   :height: 200px
+ 
+   
+.. code-block:: python
+
+	    >                                                PROJECT MARK              
+   
+
+
+CS222 Project Simulation documentation
+============================================================
+This documentation will guide you through the functioning of the simulation using exampled programs.
+
+Guide
+=====
+
+.. toctree::
+   :maxdepth: 2
+   
+   how to run
+   example program
+   license

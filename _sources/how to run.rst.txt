@@ -1,0 +1,18 @@
+How To Run
+==========
+
+1. Assign stack size by entering an integer value in **stack size** field and then press 'Assign' button. 
+   If this step is skipped then the simulator will automatically assume stack size as 64 memory words.
+2. Allocate the memory using **Allocate memory block**. The syntax for allocation is as follows:
+	* **a:17**
+	* **b:3**
+
+   In the above example, a and b are acting as variable name while 17 and 3 are the values stored in each respectively.
+   After writing all the variables and values, click on **ALLOCATE**. 
+   You will notice that the simulator loads these values in memory starting from first memory address as seen from **Memory block**.
+   
+3. Write the code in **Assembly code** block and after writing, press **LOAD PROGRAM** button. 
+   At this point, it will be noticable that the **Memory** block will show instruction codes of written program. 
+   The simulator stores instruction codes in memory right after from stored values.
+   
+4. Now you can either click on **STEP** to fetch decode and execute one instrution at an instance or you can click **RUN** to run entire program at once.
